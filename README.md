@@ -5,7 +5,6 @@ Plataforma aberta para acompanhar projetos de lei, gerar resumos com IA e estimu
 </p>
 
 <p align="center">
-  <a href="#lista-de-membros"><strong>Membros</strong></a> ·
   <a href="#sobre-o-projeto"><strong>Sobre</strong></a> ·
   <a href="#descrição"><strong>Descrição</strong></a> ·
   <a href="#plataforma-online"><strong>Plataforma Online</strong></a> ·
