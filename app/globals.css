@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Identidade Brasil: off-white, verde, amarelo e azul de apoio */
+    --background: 48 45% 97%;
+    --foreground: 222 24% 12%;
+    --card: 48 45% 99%;
+    --card-foreground: 222 24% 12%;
+    --popover: 48 45% 99%;
+    --popover-foreground: 222 24% 12%;
+    --primary: 142 65% 32%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 45 92% 52%;
+    --secondary-foreground: 24 95% 12%;
+    --muted: 48 30% 93%;
+    --muted-foreground: 222 10% 40%;
+    --accent: 219 80% 45%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 354 73% 45%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 48 25% 85%;
+    --input: 48 25% 85%;
+    --ring: 142 65% 32%;
+    --chart-1: 142 65% 32%;
+    --chart-2: 45 92% 52%;
+    --chart-3: 219 80% 45%;
+    --chart-4: 32 88% 50%;
+    --chart-5: 12 82% 55%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    /* Dark com contraste mantendo o tema Brasil */
+    --background: 220 32% 10%;
+    --foreground: 48 40% 96%;
+    --card: 220 32% 12%;
+    --card-foreground: 48 40% 96%;
+    --popover: 220 32% 12%;
+    --popover-foreground: 48 40% 96%;
+    --primary: 142 55% 45%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 45 92% 60%;
+    --secondary-foreground: 24 95% 12%;
+    --muted: 220 22% 20%;
+    --muted-foreground: 48 25% 75%;
+    --accent: 219 80% 58%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 354 73% 55%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 22% 22%;
+    --input: 220 22% 22%;
+    --ring: 142 55% 45%;
+    --chart-1: 142 65% 42%;
+    --chart-2: 45 92% 60%;
+    --chart-3: 219 80% 58%;
+    --chart-4: 32 88% 58%;
+    --chart-5: 12 82% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
